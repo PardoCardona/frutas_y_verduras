@@ -1,0 +1,361 @@
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background: #867dca96;
+}
+
+p {
+font-size: 26px;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.lista{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: blue;
+    
+}
+
+a{
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 10px 20px 10px;
+    color: white;
+}
+
+header{
+    background: url(recursos/fondo12.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    
+   
+}
+
+/* ARRANCA SECCION SOBRE MI */
+
+h3{
+   text-align: center;
+   font-size: 55px;
+   font-weight: bold;   
+}
+
+.contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-y-boton{
+    width: 50%;
+}
+
+.contenedor-parrafo-y-boton p{
+   font-size: 26px;
+}
+
+.parrafo-final{
+    margin-bottom: 30px;
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio{
+    width: 25%;
+    padding: 55px 38px 55px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.violeta{
+    background:#5055df ;
+}
+
+.celeste{
+    background:#40a8fa ;
+}
+
+.servicio h4{
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img{
+    float: right;
+}
+
+.servicio p{
+    font-size: 20px;
+    height: 200px;
+}
+
+span{
+    font-size: 80px;
+    color:purple;
+}
+
+.owl-nav{
+    text-align: center;
+}
+
+/* ARRANCA SECCION POR QEU TRABAJAR CONMIGO */
+
+.contenedor-porque{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-porque h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.porque-singular{
+    width: 28%;
+}
+
+/* ARRANCA SECCION BLOG */
+
+#blog{
+    background: #dbd9e996; /*Color de fondo*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contenedor-publicaciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacion{
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
+}
+
+#blog img{
+    width: 100%;
+}
+
+#blog h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 20px ;
+}
+
+#blog p{
+    color: #5a6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding:10px 20px 147px 20px;
+    margin: 0;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.publicacion-segunda img{
+    height: 259px;
+
+}
+
+.primer-parafo{
+    padding: 0px 20px 90px 20px !important;
+}
+
+/* ARRANCA SECCION FINAL */
+
+#que-esperas{
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#que-esperas h3{
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#que-esperas a{
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+
+#que-esperas a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);
+    display: inline-block;
+    
+}
+
+#instagram a{
+    background: none;
+    position: fixed;
+    top: 70%;
+    right: 1%;
+
+}
+
+#whatsapp a{
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width: 800px){
+    /*SE VA APLICAR CUANDO EL MAXIMO DE ANCHO SEA DE 480 PX*/
+   nav{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background:#5cb8ff ;
+    width: 100%;
+    display: none;
+   }
+
+   nav .lista{
+    flex-direction: column;
+   }
+
+   .menu-icon{
+    display: block;
+    width: 25px;
+}
+
+.titular{
+    margin-top: 54px;
+}
+
+h1{
+    font-size: 49px;
+}
+
+h2{
+    font-size: 19px;
+}
+
+.contenedor-sobremi{
+    flex-direction: column;
+}
+
+.contenedor-parrafo-y-boton {
+    width: 90%;
+}
+
+.contenedor-servicios{
+    flex-direction: column;
+}
+
+.servicio{
+    width: 72%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size:46px;
+}
+
+.contenedor-porque{
+    flex-direction: column;
+}
+
+.porque-singular{
+    width: 95%;
+}
+
+.contenedor-publicaciones{
+    flex-direction: column;
+}
+
+.publicacion{
+    width: 85%;
+    margin: auto;
+}
+
+.imagen-sobremi{
+    width: 90%;
+}
+
+}
+
+
+@media(min-width:700px) and (max-width:900px){
+
+    header{
+        height: 53vh;
+    }
+
+    .imagen-sobremi{
+        width: 50%;
+    }
+
+    .servicio{
+        width: 44%;
+    }
+
+    .publicacion{
+        width: 62%;
+    }
+}
